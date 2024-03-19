@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ass Sunnah Skill Developmant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="Images/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=""><span>Home</span></a></li>
+                    <li><a href="">Pages</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="right-icon">
+                <img src="Images/profile icon.png" alt="">
+                <a href="">Join ITech Hub</a>
+            </div>
+        </header>
+
+        <div class="hero-area">
+            <!-- <div class="line"><img src="Images/Line 1.png" alt=""></div> -->
+            <div class="hero-text">
+                <button>Notero-Easy Note App</button>
+                <h1><span>Note </span>Your Everything <span>
+                In One App</span></h1>
+                <p>No Coding required to make customization. the live customizer has everything you need.</p>
+
+                <div class="buttom-btn">
+
+                <button class="primary-btn">
+                    <img src="Images/Apple Logo.png" alt="">
+                    <h4>|  Download App</h4>
+                </button>
+                
+            </div>
+            </div>
+            <div class="hero-img">
+                <img src="Images/Hero img.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

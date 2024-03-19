@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="Images/logo.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="sign-btn">
+                <a class="Sign-in" href="">Sign in</a>
+                <a class="Sign-up" href="">SignUp</a>
+            </div>
+        </header>
+
+        <div class="hero-area">
+            <div class="hero-text">
+                <h3>We’ve got your morning covered with</h3>
+                <h1>Coffee</h1>
+                <p>It is best to start your day with a cup of coffee. Discover the <br>
+                    best flavours coffee you will ever have. We provide the best <br>
+                    for our customers.</p>
+                    <button>Order Now</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

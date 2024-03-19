@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VecTor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h2>VECTOR</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Contact</a></li>
+                    <button>Get Started</button>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="hero-area">
+            <div class="hero-text">
+                <h1>Better Solution <br> <span>For Your </span>
+                <br> Business.</h1>
+                <p>We are team of talented Designers making Websites with <br> HTML CSS & JavaScript.</p>
+                <div class="btn">
+                    <div class="btn-a">
+                        <button>Join</button>
+                    </div>
+                    <div class="btn-b">
+                        <button>◀ Watch Video</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="Images/vector.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

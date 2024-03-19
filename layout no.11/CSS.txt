@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins&display=swap');
+
+
+h1 {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.logo {
+    font-family: 'Martian Mono', monospace;
+}
+
+body {
+    width: 1440px;
+    height: 669px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 34px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ff5959;
+    margin-left: 120px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    margin-left: 300px;
+}
+
+.menu-btn {
+    font-size: 16px;
+    font-weight: 550;
+    background-color: #ff5959;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px 10px;
+    margin-right: 120px;
+    margin-left: px;
+    color: #fff;
+}
+
+.design {
+    display: flex;
+    gap: 44px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.hero-text {
+    padding-bottom: 00px;
+    margin-left: 60px;
+}
+
+.hero-text h1 {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-right: 50px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.hp-btn {
+    background-color: #ff5959;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+
+.hero-text a {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #707070;
+}
+
+.hero-img {
+    margin-right: 60px;
+    
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.best-quality p {
+    font-family: "open sans", sans-serif;
+}
+
+#top {
+    background-image: url(Images/Burger\ king.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom:0;
+    left: 0;
+    background-color: rgba(0,0,0, .6);
+}
+
+header {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 20px;}
+
+header .logo {
+    float: left;
+    width: 20%;
+}
+
+header .logo h3 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 0px;
+    color: #FFC23A; 
+    
+}
+
+header .logo h3 span {
+    color: #719a0a;
+    
+}
+
+header .nav {
+    float: right;
+    width: 80%;
+    text-align: right;
+}
+
+header .nav ul li {
+    display: inline-block;
+}
+
+header .nav ul li a {
+    font-size: 18px;
+    font-weight: 60;
+    line-height: 27px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.active {
+    color: #FFC23A !important;
+}
+
+header .nav ul li:last-child a {
+    margin: 0;
+}
+
+.best-quality {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    margin-top: 120px;
+    padding-bottom: 123px;
+    
+}
+
+.best-quality h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.best-quality h2 span {
+    color: #FFC23A;
+}
+
+.best-quality p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 50px;
+}
+
+.best-quality a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #FFC23A;
+    padding: 15px 25px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #FFC23A;
+    color: #fff;
+
+}
+
+.best-quality a:last-child {
+    margin: 0;
+    background-color: #5B8100;
+    border: 1px solid #719a0a;
+    
+}
+
+.best-quality a:hover {
+    background-color: transparent;
+}
+
+
+
+
+2nd templete css
+
+#top::after {
+    position: absolute;
+    content: ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: rgba(0,0,0, .6);

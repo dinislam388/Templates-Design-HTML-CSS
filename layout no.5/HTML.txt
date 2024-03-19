@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LayOut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h1>🌷RoSe</h1>
+            </div>
+            <div class="nav"> 
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Servisec</li>
+                    <li>Shop</li>
+                    <li>Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <button class="menu-btn">Sign Up</button>
+        </header>
+
+        <div class="design">
+            <div class="hero-text">
+                <h1>Let's make beautiful flowers a part of your life.</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+            
+            <button class="hp-btn">Shop Now</button>
+            </div>
+
+            <div class="hero-img">
+                <img src="Images/pngwing 10.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

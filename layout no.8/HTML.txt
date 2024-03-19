@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TexVantage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>TecVantage</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Solutions</a></li>
+                    <li><a href="">Resources</a></li>
+                    <li><a href="">Pricing</a></li>
+                </ul>
+
+                <div class="nav-href">
+                    <a ="" class="log-link">Log in</a>
+                    <a href="" class="get-link">Get Started now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-area">
+        <div class="container">
+            <div class="hero-text">
+                <h1>TechVantage <br>
+                    Solutions</h1>
+                    <p>Empowering Businesses with Innovative Solutions for Success and Growth. Streamline workflows, foster collaboration, and unlock your true potential with TechVantage. Experience the future of work today.</p>
+
+                    <a href="" class="primary-btn">Start Your Free Trial Now</a>
+                    <a href="" class="secendary-btn">Request a demo</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="Images/Tec Veantage.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

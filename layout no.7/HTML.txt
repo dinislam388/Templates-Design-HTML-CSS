@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Din Islam</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="Images/D-Letter-PNG-Transparent-HD-Photo.png" alt="">
+                
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="">Review</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="signin-btn">Sign In</button>
+        </header>
+
+        <div class="design">
+            <div class="hero-text">
+                <h3>I'm a student of Programming in "As-sunnah Skill Development Institute"</h3>
+                <h1>Hey, <br> I'm MD Din Islam.</h1>
+                <h2>Discord ID : dinislam3408</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem distinctio deleniti vitae doloremque unde illo error at libero nostrum consequuntur minus, perferendis, necessitatibus qui ipsum eum cum. Nam, temporibus tenetur.</p>
+                <button class="signup-btn">Sign Up</button>
+                <input type="email" name="" placeholder="Enter your email">
+            </div>
+
+            <div class="hero-img">
+                <img src="Images/Din Islam.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furnitur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-area">
+        <div class="header-row">
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <img src="Images/logo furnitur.png" alt="">
+            </div>
+
+            <div class="right-link">
+                <a href=""><img src="Images/heart.png" alt="">LOVE</a>
+                <a href=""><img src="Images/add shopping-bag.png" alt="">CART</a>
+
+                <button>
+                    <img src="Images/search.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-area">
+        <div class="container">
+        <div class="hero-text">
+            <h4>WELCOME TO OUR</h4>
+            <h1 class="hero-text-title"><span></span>FUNITURE <br></span>
+                GALLERY</h1>
+                <h2>BROWSE OUR SELECTIONS</h2>
+                <p>Featuring sleek designs and innovative  materials that  seamlessly blend form and function.</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

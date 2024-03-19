@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+                <h4>Hoo<span>Bank</span></h4>
+            </div>
+
+
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Solution</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="hero-area">
+            <div class="hero-text">
+                <button>
+                    <img src="Images/Discount.png" alt="">
+                    <h2>20% DISCOUNT FOR 1 MONTH ACCOUNT</h2>
+                </button>
+                <div class="rectangle-img">
+                    <img src="images/rectangle.png" alt="">
+                </div>
+                <h1>The Next <br><span>Generation </span> <br> Payment Method.</h1>
+                <p>Our team of experts uses a methodology to identify <br> the credit cards most likely to fit your needs. <br>
+                    We examine annual percentage rates, annual fees.</p>
+            </div>
+
+
+           
+
+
+            <!-- <div class="hero-img">
+                <img src="images/hero.png" alt="">
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

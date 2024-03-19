@@ -1,0 +1,123 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,600&family=Open+Sans:wght@700&display=swap" rel="stylesheet">);
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.design {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    background-image: url(Images/hero\ img\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#top::after {
+position: absolute;
+content: '';
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+background-color: rgba(0,0,0, .5);
+}
+
+header {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding: 25px;
+}
+
+header .logo {
+    float: left;
+    width: 20px;
+    ;
+}
+
+
+.logo h3 {
+    font-size: 39px;
+    line-height: ;
+    font-weight: 600;
+    color: #fff;
+    margin: 10px;
+}
+
+header .menu ul li {
+    display: inline-block;
+    
+}
+
+header .menu {
+    float: right;
+    width: 80%;
+    text-align: right;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px;
+}
+
+.design {
+    position: relative;
+    z-index: 1;text-align: center;
+    margin-top: 150px;
+    padding-bottom: 210px;
+
+}
+
+.design h2 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.design p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.design a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #017E82;
+    color: #fff;
+    line-height: px;
+    border-radius: 25px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid #017E82;
+    margin: 20px;
+}
+
+.design a:last-child {
+    margin-top: 0;
+}
+
+.design a:hover {
+    background: transparent;
+    
+}

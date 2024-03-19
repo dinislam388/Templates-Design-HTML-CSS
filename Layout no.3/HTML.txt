@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Project</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--Home Page-->
+   <section id="top">
+   <header>
+         <div class="logo">
+            <img src="Images/hero logo.jpg" alt="">
+         </div>
+         <div class="menu">
+            <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">Project</a></li>
+               <li><a href="">Service</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Blog</a></li>
+               <li><a href="">Shop</a></li>
+               <li><a href="">Contract</a></li>
+            </ul>
+         </div>
+         <div class="menu-btn">Sign Up</div>
+   </header>
+   <div class="design">
+      <div class="hero-text">
+         <h3>MODERN INTERIOR</h3>
+         <h1>Create Your
+            Interior Design.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+               veniam, quis nostrud exercitation.</p>
+            <a href="">CONTACT</a>
+      </div>
+            <div class="hero-img">
+               <img src="Images/Group 63.png" alt="">
+            </div>
+   </div>
+</section>
+   <!--Home Page-->
+</body>
+</html>

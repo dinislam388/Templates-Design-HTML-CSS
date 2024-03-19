@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:ital,wght@1,700&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Young Serif', serif;;
+    width: 1420px;
+    height: 800px;
+    background: linear-gradient(1deg, #52007C, #B70035);
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+}
+
+h3 {
+    font-family: 'Young Serif', serif; 
+}
+
+p {
+    font-family: sans-serif;
+}
+
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 530px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+
+.signin-btn {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #54007A;
+    color: #fff;
+    padding: 9px 17px; 
+    border: 3px solid #fff;
+    border-radius: 15px 2px;
+    margin-right: 60px;
+}
+
+
+
+
+.design {
+    display: flex;
+    align-items: center;
+    margin-top: 87px;
+    gap: 50px
+    ;
+}
+
+.hero-text {
+    padding-bottom: 20px;
+    margin-left: 60px;
+    color: #fff;
+}
+
+.hero-text h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 80px;
+    margin-bottom: 35px;
+}
+
+.hero-text h2 {
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+} 
+
+.signup-btn {
+    padding: 8px 18px;
+    font-size: 20px;
+    font-weight: 500;
+    /* background: #07A2B9; */
+    background: #B50036;
+    border: 3px solid #fff;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.hero-text input {
+    font-size: 16px;
+    padding: 13px 18px;
+    border-radius: 12px;
+    background: #fff;
+    border: 2px solid black;
+}
+
+.hero-img img {
+    width: 500px;
+    height: -40px;
+    margin-right: 60px;
+    border-radius: 60px;
+}

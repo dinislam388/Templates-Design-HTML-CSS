@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 21px;
+    margin-bottom: 2px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 149px;
+    margin-bottom: 21px;
+}
+
+nav ul {
+    display: flex;
+    gap: 42px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 320px;
+    margin-bottom: 27px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+    margin-right: 150px;
+}
+
+.nav-icon img {
+    width: 15px;
+    height: 15px;
+}
+
+.nav-icon button {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    background: none;
+    color: #9A9EA7;;
+    padding: 4px 8px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero-area {
+    height: 100vh;
+    background-image: url(Images/Rectangle.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    margin-top: 199px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 74px;
+    letter-spacing: -0.305px;
+    margin-bottom: 26px;
+}
+
+.hero-text p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+}

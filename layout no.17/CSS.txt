@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;700&display=swap');
+
+h1 {
+    font-family: 'Clicker Script', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    width: 1366px;
+    height: 768px;
+    background-image: url(Images/coffee_image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1366px;
+    height: 768px;
+    background: url(Images/overlay.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 21px;
+    margin-left: 93px;
+}
+
+nav ul {
+    display: flex;
+    gap: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 34px;
+}
+
+nav ul a {
+    color: #FFF;
+}
+
+nav ul a:hover {
+    color: #f9c06a;
+}
+
+.sign-btn {
+    margin-top: 34px;
+    gap: 62px;
+    margin-right: 93px;
+}
+
+.sign-btn .Sign-up {
+    padding: 14px 27px; 
+    border-radius: 24px;
+    background: #F9C06A;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    background-color: #f9c06a;
+    color: black;
+    color: #1E1E1E;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-btn .Sign-up:hover {
+    color: #FFF;
+    background-color: #c07709;
+}
+
+.sign-btn .Sign-in {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 35px;
+}
+
+.sign-btn .Sign-in:hover {
+    text-decoration-line: underline;
+    color: #F9C06A;
+}
+
+.hero-text {
+    margin-top: 183px;
+    margin-left: 93px;
+}
+
+.hero-text h3 {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-text h1 {
+    color: #FFF;
+    font-size: 220px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-text p {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px; 
+    margin-bottom: 34px;
+}
+
+.hero-text button {
+    padding: 14px 26px;
+    background: #F9C06A;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: 700;
+}

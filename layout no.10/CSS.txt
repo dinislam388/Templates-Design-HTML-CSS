@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@800&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.hero-text h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+    color:#2F302C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px; 
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: #2F302C;
+}
+
+.logo {
+    margin-right: 190px;
+}
+
+.right-link {
+    text-align: right;
+}
+
+.right-link a {
+    display: inline-flex;
+    align-items: center;
+    color: #000;
+    margin: 20px;
+}
+
+.hero-area {
+    background-image: url(Images/hero\ im\ furniture.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-area .container {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px
+}
+
+.hero-text h1 {
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 100px;
+    color: #2F302C;
+}
+
+.hero-text {
+    margin-top: 114px;
+    margin-bottom: 110px;
+    
+}
+
+.hero-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #2F302C;
+}
+
+.hero-text p {
+    color: #7E7F7C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+

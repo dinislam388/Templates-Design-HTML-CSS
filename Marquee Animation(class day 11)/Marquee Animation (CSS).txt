@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+   padding-top: 3%;
+   padding-bottom: 30px;
+}
+
+.reviews-area {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    white-space: nowrap;
+    grid-gap: 20px;
+}
+
+.reviews-card {
+    display: flex;
+    gap: 18px;
+    animation: marquee 4s linear infinite;
+}
+
+.reviews-card img {
+    width: 45px;
+    border-radius: 50px;
+}
+
+.icon svg {
+    width: 20px;
+    fill: #FFD26B;
+    color: #FFD26B;
+}
+
+.icon-tittle {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate3d(0%, 0, 0); 
+    }
+    100% {
+        transform: translate3d(-50%, 0, 0);
+    }
+}

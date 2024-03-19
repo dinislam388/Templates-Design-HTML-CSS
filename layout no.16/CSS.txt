@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 29px;
+    margin-bottom: 30px;
+    margin-left: 54px;
+    margin-right: 266px;
+}
+
+nav ul {
+    display: flex;
+    gap: 75px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    margin-right: 266px;
+}
+
+nav ul a {
+    color: #000;
+}
+
+nav ul a:hover {
+    color: #B88E2F;
+}
+
+.right-bar img {
+    margin-right: 36px;
+    gap: 45px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.hero-area {
+    width: 100%;
+    background-image: url(Images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 115vh;
+    margin-left: 49px;
+}
+
+.hero-text-box {
+    width: 643px;
+    height: 443px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    background: #fff3e3;
+    padding: 50px 60px 70px;
+    align-items: center;
+    margin-top: 193px;
+    margin-left: 150px;
+    margin-bottom: 116px;
+}
+
+.hero-text {
+    margin-top: 4px;
+    margin-left: -19px;
+    margin-right: 43px;
+    margin-bottom: px;
+}
+
+.hero-text h3 {
+    color: var(--font-color, #333);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 4px;
+}
+
+.hero-text h1 {
+    color: var(--Primary, #B88E2F);
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 17px;
+}
+
+.hero-text p {
+    color: var(--font-color, #333);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+    margin-bottom: 46px;
+}
+
+.hero-text button {
+    padding: 25px 72px;
+    background: var(--Primary, #B88E2F);
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 37px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabic page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="Images/Youtube.png" alt="">
+            </div>
+            <nav>
+            <ul>
+                <li><a href="">اتصل بنا</a></li>
+                <li><a href="">آراء العملاء</a></li>
+                <li><a href="">الأسعار</a></li>
+                <li><a href="">الخدمات</a></li>
+                <li><a href="">الرحلات</a></li>
+            </ul>
+            </nav>
+            <div class="nav-btn">
+                <a href="">رحلاتي</a>
+            </div>
+        </header>
+
+        <div class="hero-text">
+            <h1>سافر معنا إلى العالم</h1>
+            <p>نوفر لك أفضل الرحلات التي تحتاجها لجميع البلدان<br>
+            وبخدمات مخصصة لك ولعائلتك</p>
+            <button>
+                <img src="Images/arrow.png" alt="">
+                <h2>احجز الآن</h2>
+            </button>
+            <h3>احجز الآن</h3>
+            <img src="Images/Mouse.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.form-box {
+    font-family: sans-serif;
+}
+
+.hero-text h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.6)50%, rgba(0,0,0,0.6)50%), url(Images/nature\ hero\ jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 25px;
+    color: #F77102;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-right: 170px;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+nav ul li a:hover {
+    color: #F77102;
+}
+
+.right-side {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.right-side input {
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    background: none;
+    border: 1px solid #F77102;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.right-side button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background: #F77102;
+    color: #fff;
+    border: 1px solid #F77102;
+    border-radius: 0 8px 8px 0;
+}
+
+.right-side button:hover {
+    background: #b85a0e;
+}
+
+.hero-text {
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 span {
+    font-size: 75px;
+    color: #F77102;
+}
+
+.hero-text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.hero-area {
+    display: flex;
+}
+
+.hero-text a {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 45px;
+    border-radius: 10px;
+    background: #F77102;
+}
+
+.hero-text a:hover {
+    background: #b85a0e;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.form-box {
+    width: 250%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-10%, -50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    padding: 50px 60px 70px ;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.form-box .log-here {
+    padding: 15px 115px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #F77102;
+    margin-bottom: 20px;
+}
+
+.form-box input {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding: 15px 50px;
+    background: none;
+    border-bottom: 1px solid #F77102;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: start;
+    color: #fff;
+    margin-right: 200px;
+}
+
+.form-box .login {
+    padding: 15px 139px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #F77102;
+    margin-bottom: 20px;
+    background: #F3E3CD;
+    border: none;
+}
+
+.form-box .login:hover {
+    background: #F77102;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.form-box p {
+    color: #fff;
+    text-align: center;
+}
+
+.form-box p span {
+    color: #F77102;
+}

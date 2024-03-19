@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.design h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+}
+ body {
+    max-width: 1420px;
+    margin: 0 auto;
+
+} 
+
+#top{ml0px.de
+    width: px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    align-items: center;
+}
+
+header .logo img { 
+    width: 80;
+}
+
+header .menu ul {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+    margin-left: 550px;
+    font-weight: 600;
+}
+
+header .menu ul li a {
+    color: #646464;
+    list-style: none;
+}
+
+.menu-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 0px;
+    background-color:#CAA892;
+    padding: 5px 15px;
+    border-radius: 15px 0px;
+}
+
+.design {
+    display: flex;
+    gap: 44px;
+    margin-top: 107px;
+    align-items: center;
+}
+
+.hero-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #646464;
+    margin-bottom: 12px;
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 78px;
+    color: #212121;
+    text-transform: none;
+    margin-bottom: 23px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #646464;
+    text-transform: none;
+    margin-bottom: 46px;
+}
+
+.hero-text a {
+    font-size: 18px;
+.h
+
+    font-weight: 700;
+    line-height: 78px;
+    color: #fff;
+    background-color: #37806B;
+    border-radius: 20px 0px;
+    padding: 12px 20px;
+}
+
+.hero-img {
+    width: 716px;
+height: 626px;
+}
+
+
+
+
+
+
+.hero-

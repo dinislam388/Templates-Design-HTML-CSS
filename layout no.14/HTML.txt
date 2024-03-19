@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <h2>PraRoz</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICE</a></li>
+                    <li><a href="">DESIGN</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="right-side">
+                <input type="text" name="" placeholder="Type text">
+            <button>Search</button>
+            </div>
+        </header>
+
+        <div class="hero-area">
+        <div class="hero-text">
+            <h1>Web Design & <br> <span>Development</span> <br> Course</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing. Dolores HTML.<br>quisquam aperiam reiciendis asperiores, consequatur earum! <br> Vitae obcaecati neque facilis laudantium.</p>
+            <a href="">JOIN US</a>
+        </div>
+
+        <div class="form-box">
+            <button class="log-here">Login Hare</button> <br>
+            <input type="email" name="" placeholder="Enter your email">
+            <br>
+            <input type="password" name="" placeholder="Enter Password">
+            <br>
+            <button class="login">Login</button>
+            <p>Don't have an account? <br> <span>Sign up</span> here!</p>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

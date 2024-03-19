@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Secular+One&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* width: 1400px;
+    height: 800px; */
+    width: 1420;
+    height: 780;
+}
+
+.logo {
+    font-family: 'Secular One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: -1px;
+}
+
+.container {
+    max-width: 1200;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    margin-left: 115px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.293px;
+    margin-right: 211px;
+    margin-top: 33px;
+    color: #1D1D1D;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    margin-top: 37px;
+    margin-right: 64px;
+    color: #1D1D1D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    color: #1D1D1D;
+}
+
+nav {
+    display: flex;
+    margin-right: 115px;
+}
+
+.nav-href {
+    display: flex;
+    margin-top: 28px;
+    gap: 0;
+    margin-right: 30px;
+
+}
+
+.log-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 27px;
+    color: #0000FF;
+    margin-right: 0px;
+}
+
+.get-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 10px 27px;
+    background: #0000FF;
+    color: #fff;
+    border-radius: 5px;
+} 
+
+.hero-area .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 56px;
+    margin-top: ;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+.hero-text {
+    margin-top: 121px;
+}
+
+.hero-text h1 {
+    color: #1D1D1D;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -1px;
+    margin-bottom: 35px;
+
+}
+
+.hero-text p {
+    color: #223140;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 45px;
+}
+
+.primary-btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background: #0000FF;
+    display: inline-flex;
+    padding: 10px 27px;
+    gap: 10px;
+}
+
+.secendary-btn {
+    color: #094BCA;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: inline-flex;
+    padding: 10px 27px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+}
+
+.hero-img {
+    margin-top: 92px;
+}

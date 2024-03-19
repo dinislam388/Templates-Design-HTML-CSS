@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--Home page-->
+    <section id="top">
+       <header>
+         <div class="logo">
+            <h3>Burger <span>King</span></h3>
+         </div>
+         <div class="nav">
+            <ul>
+               <li><a href="" class="active">Home</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Feature</a></li>
+               <li><a href="">Chef</a></li>
+               <li><a href="">Menu</a></li>
+               <li><a href="">Booking</a></li>
+               <li><a href="">Page</a></li>
+               <li><a href="">Contact</a></li>
+            </ul>
+         </div>
+       </header>
+        <div class="best-quality">
+            <h2>Best <span>Quality  </span>Ingredient</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iusto repellendus nulla minus magni </Br> voluptas qui! Consectetur similique modi unde id.</p>
+            <a href="">View menu</a>
+            <a href="">Book Table</a>
+    </section>
+    <!--Home page-->
+</body>
+</html>
